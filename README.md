@@ -1,2 +1,2 @@
-# Dio-Desafio-Github
-Primeiro Desafio do Bootcamp Java Beginners : Git/GitHub
+# 🛠 Desafio sobre Git/GitHub da Dio
+Aplicação dos conhecimentos adquiridos nas aulas de Introdução ao Git e GitHub
