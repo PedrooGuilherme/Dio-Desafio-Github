@@ -14,19 +14,21 @@ GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colab
  - Reconhecimento
 
 ### GUI X CLI
-
+   
 - GUI : Possui uma Interface gráfica e se concentra em permitir que os usuários façam alterações no seu repositório fazendo novos commit, melhorando os já existentes, criando ramificações, realizando mesclagens locais e buscando/impulsionando para os repositórios remotos.
 
 - CLI : É um Command-Line,ou seja,não possui uma interface gráfica, sua forma de interação com o usuário é por meio de linha de comando,Leva pull requests, problemas, GitHub Actions e outras funcionalidades de GitHub ao seu terminal para que você possa fazer todo o seu trabalho em um só lugar
 
 
-### Comandos do Terminal:
-  **Linux**  |**Windows**         | **Funcionalidades**
-  ---------- | ------------------ | -------------------
-     ls      |    dir             | Lista a3rquivos do diretório/pasta
-    cd/      |    cd /            | Entra em um diretório ou pasta específica.
-    cd ..    |    cd ..           | Retrocede 1 nível de pasta(Pasta anterior)
-    cls      |    Crt+L || clear  | Limpa terminal
-    TAB      |                    | Autocompleta pastas ao digitar comandos
-    mkdir    |     mkdir          | Criar Pasta/Diretório
-    
+### Alguns Comandos Básicos do Terminal:
+
+**Linux**   | **Windows**| Funcionalidades
+:---------: | :--------: | :------:
+ls |dir|Lista arquivos do diretório/pasta
+cd .. |cd ..|Retrocede 1 nível de pasta(Pasta anterior)
+cd/|cd/|Entra em um diretório ou pasta específica.
+cls |Crt+L ou clear|Limpa terminal
+TAB|TAB|Autocompleta pastas ao digitar comandos
+ mkdir|mkdir|Criar Pasta/Diretório
+ echo > NomedoArquivo.extensão|echo > NomedoArquivo.extensão|Cria um arquivo
+ rmdir|rmdir|Apaga todos os arquivos de 
