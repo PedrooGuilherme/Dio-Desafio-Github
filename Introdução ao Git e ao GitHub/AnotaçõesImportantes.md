@@ -21,11 +21,12 @@ GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colab
 
 
 ### Comandos do Terminal:
-  *Linux*    |  *Windows* 
-     ls      |    dir 
-    cd/      |    cd /
-    cd ..    |    cd ..
-    cls      |    Crt+L || clear
-    TAB      |
-    mkdir    |     mkdir
-             |
+  **Linux**  |**Windows**         | **Funcionalidades**
+  ---------- | ------------------ | -------------------
+     ls      |    dir             | Lista a3rquivos do diretório/pasta
+    cd/      |    cd /            | Entra em um diretório ou pasta específica.
+    cd ..    |    cd ..           | Retrocede 1 nível de pasta(Pasta anterior)
+    cls      |    Crt+L || clear  | Limpa terminal
+    TAB      |                    | Autocompleta pastas ao digitar comandos
+    mkdir    |     mkdir          | Criar Pasta/Diretório
+    
