@@ -6,7 +6,7 @@ O Git é um sistema de controle de versão distribuído e amplamente adotado. É
 ## GitHub
 GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colaboração entre devs, utilizando o Git como sistema de controle. É como se fosse uma rede social, só que de códigos, onde seus desenvolvedores podem disponibilizá-los para outras pessoas verem.
 
-### Benefícios:
+#### Benefícios:
  - Controle de Versão
  - Armazenamento em Nuvem
  - Trabalho em equipe
@@ -22,7 +22,7 @@ GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colab
 
 ### Alguns Comandos Básicos do Terminal:
 
-**Linux**   | **Windows**| Funcionalidades
+**Linux**   | **Windows**| **Funcionalidades**
 :---------: | :--------: | :------:
 ls |dir|Lista arquivos do diretório/pasta
 cd .. |cd ..|Retrocede 1 nível de pasta(Pasta anterior)
@@ -31,4 +31,21 @@ cls |Crt+L ou clear|Limpa terminal
 TAB|TAB|Autocompleta pastas ao digitar comandos
  mkdir|mkdir|Criar Pasta/Diretório
  echo > NomedoArquivo.extensão|echo > NomedoArquivo.extensão|Cria um arquivo
- rmdir|rmdir|Apaga todos os arquivos de 
+ rmdir|rmdir|Apaga todos os arquivos do diretório/pasta
+
+## Introdução ao Git:
+### Instalação do Git
+
+[Clique aqui para acessar o site](https://git-scm.com/)
+
+### 👨‍🏫 Entendendo o Git
+    A sigla SHA significa Secure Hash Algorithm(Algoritmo de HAshe Seguro),é um conjunto de funções hash criptográficas projetadas pela NSA.Trata-se de uma forma curta de apresentar um arquivo por meio de um cifra criptofrafada. A encriptação gera um conjunto de caracteres identificador de 40 dígitos
+
+### Objetos do Git
+ - Blobs : Possuem metadados
+ - Trees : Armazenam e apontam para tipos de blobs diferentes. Além disso, é responsável por montar toda a estrutura de onde estão localizados os arquivos do git.Relação mútua com o blob.
+ - Commit: Junta todos os elementos,são utilizados para auxiliar o controle do versionamento e as modificações de sistemas.Objetos do git que dão significado às alterações,os quais carregam uma mensagem de texto justamente com outros dados;
+
+![Objetos do Git ](/Anota%C3%A7%C3%B5esImportantes.md)
+
+*Se houver modificação no arquivo,o commit e as trees atreladas a ele terão a cifra do do SHA1 modificado.
